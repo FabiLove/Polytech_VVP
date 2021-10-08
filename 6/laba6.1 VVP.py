@@ -1,4 +1,4 @@
-print('Введите два числа:')
+print('Введите два любых числа:')
 a, b = float(input()), float(input())
 x = a
 a = b
