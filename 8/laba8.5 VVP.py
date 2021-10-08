@@ -1,0 +1,6 @@
+print('Введите трехзначное число:')
+x = int(input())
+s = str(x // 100)
+d = str((x % 100) // 10)
+e = str(x % 10)
+print(d+e+s)

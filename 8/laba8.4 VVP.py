@@ -1,0 +1,5 @@
+print('Введите двузначное число:')
+x = int(input())
+d = str(x // 10)
+e = str(x % 10)
+print(e+d)
