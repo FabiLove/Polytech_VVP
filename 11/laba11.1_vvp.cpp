@@ -13,7 +13,7 @@ int main()
             else{
                 a = b;
             };
-            cout << a << b << endl;
+            cout << a << " " << b << endl;
     }
     else{
         a = 0;
