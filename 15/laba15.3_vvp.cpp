@@ -12,8 +12,10 @@ float RingS(float R1, float R2)
 int main()
 {
     float a, b;
-    cout << "Введите два радиуса R1 и R2, где R1 > R2: ";
-    cin >> a >> b;                              
-    cout << "S = " << RingS(a, b) << endl;
+    for(int i = 0; i < 3; i++){
+        cout << "Введите два радиуса R1 и R2, где R1 > R2: ";
+        cin >> a >> b;                              
+        cout << "S = " << RingS(a, b) << endl;
+    }
     return 0;
 }

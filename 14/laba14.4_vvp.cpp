@@ -9,7 +9,7 @@ int main()
     cin >> p;
     s = 1000;
     k = 0;
-    while(s < 1100){
+    while(s <= 1100){
         s = s + s * (p/100);
         k = k + 1;
     };
